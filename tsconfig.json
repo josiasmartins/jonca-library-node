@@ -6,9 +6,11 @@
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
     "strict": true,                                      /* Enable all strict type-checking options. */
     "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */                   /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                               /* Skip type checking all .d.ts files. */
+    "outDir": "./dist"
   },
   "include": [
-    "src/**/*"
-  ]
+    "src/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
 }
