@@ -1,0 +1,14 @@
+{
+  "name": "jonca-lib-node",
+  "version": "1.0.0",
+  "description": "lib jonca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "josiasmartins",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.7"
+  }
+}
