@@ -1,11 +1,11 @@
 {
   "name": "jonca-library-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "lib jonca",
   "main": "dist/src/index.js",
-  "module": "dist/index.m.js",
-  "unpkg": "dist/index.umd.js",
-  "types": "dist/index.d.ts",
+  "module": "dist/src/index.m.js",
+  "unpkg": "dist/src/index.umd.js",
+  "types": "dist/src/index.d.ts",
   "license": "ISC",
   "files": [
     "/dist"
