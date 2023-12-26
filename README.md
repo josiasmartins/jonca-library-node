@@ -18,7 +18,7 @@ Use o código com cuidado. Saiba mais
 
 Example:
 
-TypeScript
+```TypeScript
 import { DefaultValue } from 'jonca-library-node';
 
 class User {
@@ -45,7 +45,7 @@ user.isActive = false;
 console.log(user.name);   // Output: 'Jane Smith' (updated value)
 console.log(user.age);    // Output: 25 (updated value)
 console.log(user.isActive); // Output: false (updated value)
-Use o código com cuidado. Saiba mais
+```
 ## Documentation
 
 For comprehensive documentation and usage examples, please visit the project's GitHub repository: https://github.com/josiasmartins/jonca-library-node
