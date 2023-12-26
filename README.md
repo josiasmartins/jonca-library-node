@@ -13,7 +13,6 @@ Bash
 ```bash
 npm install jonca-library-node
 ```
-Use o código com cuidado. Saiba mais
 ## Usage
 
 ### DefaultValue Decorator
