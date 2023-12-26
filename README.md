@@ -15,7 +15,9 @@ npm install jonca-library-node
 ```
 ## Usage
 
-### DefaultValue Decorator
+<details>
+  <summary>Decorators</summary>
+  <h3>DefaultValue Decorator</h3>
 
 Example:
 
@@ -47,6 +49,9 @@ console.log(user.name);   // Output: 'Jane Smith' (updated value)
 console.log(user.age);    // Output: 25 (updated value)
 console.log(user.isActive); // Output: false (updated value)
 ```
+</details>
+
+
 ## Documentation
 
 For comprehensive documentation and usage examples, please visit the project's GitHub repository: https://github.com/josiasmartins/jonca-library-node
