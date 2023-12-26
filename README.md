@@ -51,6 +51,18 @@ console.log(user.isActive); // Output: false (updated value)
 ```
 </details>
 
+<details>
+  <summary>Services</summary>
+</details>
+
+<details>
+  <summary>Adapters</summary>
+</details>
+
+<details>
+  <summary>Utils</summary>
+</details>
+
 
 ## Documentation
 
