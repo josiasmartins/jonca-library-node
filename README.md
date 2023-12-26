@@ -10,7 +10,9 @@ More features coming soon! Stay tuned for additional tools and utilities to enha
 ## Installation
 
 Bash
+```bash
 npm install jonca-library-node
+```
 Use o código com cuidado. Saiba mais
 ## Usage
 
