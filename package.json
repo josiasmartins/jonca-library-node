@@ -1,6 +1,6 @@
 {
   "name": "jonca-library-node",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "lib jonca",
   "main": "dist/src/index.js",
   "module": "dist/src/index.m.js",
