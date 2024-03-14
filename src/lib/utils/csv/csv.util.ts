@@ -39,6 +39,30 @@ export class CsvUtil {
         return csvRows.join('\n');
     }
 
-    
+    static donwloadCsv(headers: Array<string>, paths: Array<string>, object: any, filename: string) {
+        /** converte os dados em csv */
+        const csvData = CsvUtil.covertObjectInCsv(headers, paths, object);
+
+        /** cria um objeto Blob para CSV */
+        const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8' });
+
+        /** cria um URL temporário para o Blob */
+        const url = URL.createObjectURL(blob);
+
+        /** cria um link <a> para o download */
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', filename);
+        
+        /** simula um clique no link para iniciar o donwload */
+        document.body.appendChild(link);
+        link.click();
+
+        /** limpa o link e o URL temporário */
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+    }
+
+
 
 }
