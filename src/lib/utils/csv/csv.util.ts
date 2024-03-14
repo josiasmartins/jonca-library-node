@@ -39,7 +39,7 @@ export class CsvUtil {
         return csvRows.join('\n');
     }
 
-    static donwloadCsv(headers: Array<string>, paths: Array<string>, object: any, filename: string) {
+    static downloadCsv(headers: Array<string>, paths: Array<string>, object: any, filename: string) {
         /** converte os dados em csv */
         const csvData = CsvUtil.covertObjectInCsv(headers, paths, object);
 
