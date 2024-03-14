@@ -15,8 +15,12 @@ npm install jonca-library-node
 ```
 
 ## Features
+
+### Decorators
+[LogExecutionTime](./src/lib/decorators/log-execution/log-execution.decorator.md)
 ### Util
 [UtilCsv](./src/lib/utils/csv/csv.md)
+
 
 ## Usage
 
