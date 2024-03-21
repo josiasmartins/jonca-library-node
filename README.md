@@ -16,6 +16,11 @@ npm install jonca-library-node
 
 ## Features
 
+### Crypto
+[RsaEncryption Asimetric](./src/lib/crypto/asimetric/rsa_encryption.md)
+<br>
+[Aes Simetric](./src/lib/crypto/simetric/aes_crypto.md)
+
 ### Decorators
 [LogExecutionTime](./src/lib/decorators/log-execution/log-execution.decorator.md)
 ### Util
